@@ -29,3 +29,8 @@
 .title{
   margin-bottom: 12px;
 }
+
+.listItem__link{
+  text-decoration: none;
+  color: black;
+}
