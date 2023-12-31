@@ -1,0 +1,31 @@
+.container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.todoList{
+  width: 300px;
+  border: 3px solid rebeccapurple;
+  padding: 24px;
+
+}
+
+.listItem{
+  padding: 12px;
+  border: 1px solid grey;
+  border-radius: 12px;
+  margin-top: 12px;
+  list-style: none;
+}
+
+.listItem:hover{
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+.title{
+  margin-bottom: 12px;
+}
